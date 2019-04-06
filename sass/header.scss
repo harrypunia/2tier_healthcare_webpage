@@ -1,0 +1,39 @@
+@import "mixin";
+@import "variables";
+
+header {
+    @include size(100vw, 50px);
+    position: fixed;
+    background: $mainDark;
+    padding: 0 20px;
+}
+
+.header__logo {
+    @include flexPos(center, center);
+    @include size(200px, 150px);
+    float: left;
+    cursor: pointer;
+    
+    img {
+        height: 40px;
+        margin: 5px 20px auto 0;
+    }
+    
+    &__text {margin: auto}
+}
+
+.header__items {
+    float: right;
+    margin-right: 20px;
+    
+    ul {
+        @include flexPos(center, center);
+        width: 500px;
+    }
+    
+    li {
+        display: inline;
+        margin: auto;
+        cursor: pointer;
+    }
+}

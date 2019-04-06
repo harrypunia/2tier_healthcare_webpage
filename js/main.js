@@ -1,0 +1,1 @@
+const parseContent = (text, className) => document.getElementsByClassName(className)[0].innerHTML = text;

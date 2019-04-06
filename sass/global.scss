@@ -1,0 +1,18 @@
+@import "variables";
+
+body {margin: 0}
+
+h1, h2, h3, h4, p, li{
+    color: $mainWhite;
+    font-family: "roboto";
+    font-weight: 300;
+}
+
+h1 {font-family: "cinzel"}
+
+h2, h3, h4 {font-weight: 600}
+
+a {
+    text-decoration: none;
+    display: block;
+}
