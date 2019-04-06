@@ -1,8 +1,16 @@
-@mixin posAbs($left, $top) {
+@import "variables";
+
+@mixin absPos($left, $top) {
     position: absolute;
     left: $left;
     top: $top;
     transform: translate(-50%, -50%);
+}
+
+@mixin fixPos($left, $top) {
+    position: fixed;
+    left: $left;
+    top: $top;
 }
 
 @mixin flexPos($justify, $align) {
@@ -14,4 +22,19 @@
 @mixin size($width, $height) {
     width: $width;
     height: $height;
+}
+
+@mixin hover($holdTranslate, $cursor, $size) {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    cursor: $cursor;
+    transform-origin: top left;
+    transition: .2s transform $bezier;
+    
+    &:hover{
+        @if $holdTranslate == true {
+            transform: scale($size) translate(-50%, -50%);
+        } @else {
+            transform: scale($size);
+        }
+    }
 }

@@ -3,7 +3,9 @@ header {
   width: 100vw;
   height: 50px;
   position: fixed;
-  background: #333;
+  left: 0;
+  top: 0;
+  background: #070707;
   padding: 0 20px; }
 
 /* line 11, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/header.scss */
@@ -12,7 +14,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 200px;
-  height: 150px;
+  height: 50px;
   float: left;
   cursor: pointer; }
   /* line 17, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/header.scss */

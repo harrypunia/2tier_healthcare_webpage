@@ -1,2 +1,21 @@
+/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/intro.scss */
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background-color: #932a2a; }
+  /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/intro.scss */
+  .intro img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    cursor: default;
+    transform-origin: top left;
+    transition: 0.2s transform cubic-bezier(0.35, 0.24, 0.25, 0.97);
+    height: 60%; }
+    /* line 33, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_mixin.scss */
+    .intro img:hover {
+      transform: scale(1.02) translate(-50%, -50%); }
 
 /*# sourceMappingURL=intro.css.map */

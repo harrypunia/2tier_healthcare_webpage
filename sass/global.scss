@@ -3,6 +3,7 @@
 body {margin: 0}
 
 h1, h2, h3, h4, p, li{
+    position: relative;
     color: $mainWhite;
     font-family: "roboto";
     font-weight: 300;

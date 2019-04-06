@@ -2,8 +2,10 @@
   "version": 3,
   "file": "intro.css",
   "sources": [
-    "../sass/intro.scss"
+    "../sass/intro.scss",
+    "../sass/_mixin.scss",
+    "../sass/_variables.scss"
   ],
-  "mappings": "",
+  "mappings": ";AAGA,AAAA,MAAM,CAAC;ECmBH,KAAK,EDlBS,KAAK;ECmBnB,MAAM,EDnBe,KAAK;EAC1B,gBAAgB,EEHR,OAAO,GFUlB;;EATD,AAII,MAJE,CAIF,GAAG,CAAC;ICJJ,QAAQ,EAAE,QAAS;IACnB,IAAI,EDIgB,GAAG;ICHvB,GAAG,EDGsB,GAAG;ICF5B,SAAS,EAAE,qBAAS;IAqBpB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,kBAAI;IACzB,MAAM,EDnBmB,OAAO;ICoBhC,gBAAgB,EAAE,QAAS;IAC3B,UAAU,EAAE,IAAG,CAAC,SAAS,CC1BpB,oCAAY;IFMb,MAAM,EAAE,GAAI,GACf;;IARL,AAII,MAJE,CAIF,GAAG,ACyBF,MAAM,CAAA;MAEC,SAAS,EAAE,WAAK,CAAQ,qBAAS,GAIxC",
   "names": []
 }

@@ -4,19 +4,20 @@ body {
 
 /* line 5, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/global.scss */
 h1, h2, h3, h4, p, li {
+  position: relative;
   color: #efefef;
   font-family: "roboto";
   font-weight: 300; }
 
-/* line 11, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/global.scss */
+/* line 12, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/global.scss */
 h1 {
   font-family: "cinzel"; }
 
-/* line 13, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/global.scss */
+/* line 14, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/global.scss */
 h2, h3, h4 {
   font-weight: 600; }
 
-/* line 15, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/global.scss */
+/* line 16, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/global.scss */
 a {
   text-decoration: none;
   display: block; }

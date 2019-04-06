@@ -3,14 +3,14 @@
 
 header {
     @include size(100vw, 50px);
-    position: fixed;
+    @include fixPos(0, 0);
     background: $mainDark;
     padding: 0 20px;
 }
 
 .header__logo {
     @include flexPos(center, center);
-    @include size(200px, 150px);
+    @include size(200px, 50px);
     float: left;
     cursor: pointer;
     
