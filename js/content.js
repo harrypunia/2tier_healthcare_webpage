@@ -3,3 +3,9 @@
 /*Header Item 2*/ parseContent("About", "header__item-2");
 /*Header Item 3*/ parseContent("Ads", "header__item-3");
 /*Header Item 4*/ parseContent("Videos", "header__item-4");
+/*Intro Button*/  parseContent("Learn More", "intro__button");
+/*About Title*/   parseContent("About project", "about__title");
+/*About desc*/    parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "about__desc");
+/*Ads Title*/     parseContent("Advertisements", "ads__title");
+/*Ads desc*/      parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "ads__desc");
+/*Footer CR*/     parseContent("copyright &copy; " + new Date().getFullYear() + " Team Panda", "footer__copyright");

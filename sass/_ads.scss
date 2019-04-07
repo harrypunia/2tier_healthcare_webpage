@@ -1,0 +1,27 @@
+@import "mixin";
+@import "variables";
+
+.ads {
+    @include wrapper();
+    @include size(100%, auto);
+    
+    p {text-align: center}
+    
+    &__container{
+        @include size(auto, auto);
+        margin-top: 40px;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    
+    &__item {
+        @include size(300px, 300px);
+        margin: 20px auto;
+        
+        img {
+            @include size(90%, auto);
+            @include hover(false, pointer, 1.02);
+            transform-origin: center center;
+        }
+    }
+}

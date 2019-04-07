@@ -3,11 +3,15 @@
 
 .intro {
     @include size(100vw, 100vh);
-    background-color: $mainColor;
     
     img {
         @include absPos(50%, 50%);
-        @include hover(true, default, 1.02);
+        @include hover(true, default, 1.005);
         height: 60%;
+    }
+    
+    button {
+        @include absPos(50vw, 90vh);
+        @include hover(true, pointer, 1.03);
     }
 }

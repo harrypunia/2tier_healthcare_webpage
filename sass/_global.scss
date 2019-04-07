@@ -1,0 +1,43 @@
+@import "variables";
+
+* {box-sizing: border-box}
+
+body {
+    margin: 0;
+    background: $mainColor;
+}
+
+h1, h2, h3, h4, p, li{
+    position: relative;
+    color: $mainWhite;
+    font-family: "roboto";
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    margin: 1.5em auto;
+}
+
+h1 {font-family: "cinzel"}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    text-align: center;
+}
+
+p {max-width: 800px;}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+button {
+    background: $mainDark;
+    border: 0;
+    color: $mainWhite;
+    padding: 10px 30px;
+    
+    &:hover {border: 1px solid $mainWhite}
+    
+    &:focus {outline: 0}
+}

@@ -6,6 +6,7 @@ header {
     @include fixPos(0, 0);
     background: $mainDark;
     padding: 0 20px;
+    z-index: 9;
 }
 
 .header__logo {

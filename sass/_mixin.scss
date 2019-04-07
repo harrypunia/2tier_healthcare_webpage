@@ -38,3 +38,7 @@
         }
     }
 }
+
+@mixin wrapper() {
+    padding: 80px;
+}

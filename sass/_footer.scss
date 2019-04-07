@@ -1,0 +1,17 @@
+@import "mixin";
+@import "variables";
+
+footer {
+    @include size(100vw, 50px);
+    background: $mainDark;
+    margin-top: 40px;
+}
+
+.footer {
+    &__copyright {
+        color: $fadedColor;
+        text-align: center;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+}

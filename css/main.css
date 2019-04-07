@@ -1,0 +1,183 @@
+/* line 3, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+body {
+  margin: 0;
+  background: #932a2a; }
+
+/* line 10, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+h1, h2, h3, h4, p, li {
+  position: relative;
+  color: #efefef;
+  font-family: "roboto";
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  margin: 1.5em auto; }
+
+/* line 20, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+h1 {
+  font-family: "cinzel"; }
+
+/* line 22, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  text-align: center; }
+
+/* line 27, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+p {
+  max-width: 800px; }
+
+/* line 29, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+a {
+  text-decoration: none;
+  display: block; }
+
+/* line 34, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+button {
+  background: #070707;
+  border: 0;
+  color: #efefef;
+  padding: 10px 30px; }
+  /* line 40, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+  button:hover {
+    border: 1px solid #efefef; }
+  /* line 42, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+  button:focus {
+    outline: 0; }
+
+/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
+header {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #070707;
+  padding: 0 20px;
+  z-index: 9; }
+
+/* line 12, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  float: left;
+  cursor: pointer; }
+  /* line 18, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
+  .header__logo img {
+    height: 40px;
+    margin: 5px 20px auto 0; }
+  /* line 23, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
+  .header__logo__text {
+    margin: auto; }
+
+/* line 26, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
+.header__items {
+  float: right;
+  margin-right: 20px; }
+  /* line 30, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
+  .header__items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px; }
+  /* line 35, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
+  .header__items li {
+    display: inline;
+    margin: auto;
+    cursor: pointer; }
+
+/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_intro.scss */
+.intro {
+  width: 100vw;
+  height: 100vh; }
+  /* line 7, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_intro.scss */
+  .intro img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    cursor: default;
+    transform-origin: top left;
+    transition: 0.2s transform cubic-bezier(0.35, 0.24, 0.25, 0.97);
+    height: 60%; }
+    /* line 33, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_mixin.scss */
+    .intro img:hover {
+      transform: scale(1.005) translate(-50%, -50%); }
+  /* line 13, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_intro.scss */
+  .intro button {
+    position: absolute;
+    left: 50vw;
+    top: 90vh;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transform-origin: top left;
+    transition: 0.2s transform cubic-bezier(0.35, 0.24, 0.25, 0.97); }
+    /* line 33, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_mixin.scss */
+    .intro button:hover {
+      transform: scale(1.03) translate(-50%, -50%); }
+
+/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_about.scss */
+.about {
+  padding: 80px;
+  width: 100vw;
+  padding: 80px 20px; }
+  /* line 9, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_about.scss */
+  .about p {
+    text-align: center; }
+
+/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
+.ads {
+  padding: 80px;
+  width: 100%;
+  height: auto; }
+  /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
+  .ads p {
+    text-align: center; }
+  /* line 10, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
+  .ads__container {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    display: inline-flex;
+    flex-wrap: wrap; }
+  /* line 17, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
+  .ads__item {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto; }
+    /* line 21, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
+    .ads__item img {
+      width: 90%;
+      height: auto;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+      transform-origin: top left;
+      transition: 0.2s transform cubic-bezier(0.35, 0.24, 0.25, 0.97);
+      transform-origin: center center; }
+      /* line 33, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_mixin.scss */
+      .ads__item img:hover {
+        transform: scale(1.02); }
+
+/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_footer.scss */
+footer {
+  width: 100vw;
+  height: 50px;
+  background: #070707;
+  margin-top: 40px; }
+
+/* line 11, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_footer.scss */
+.footer__copyright {
+  color: #666;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */
