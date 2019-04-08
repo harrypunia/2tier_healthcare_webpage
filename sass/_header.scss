@@ -3,10 +3,10 @@
 
 header {
     @include size(100vw, 50px);
-    @include fixPos(0, 0);
+    @include fixPos(0, 0, false);
     background: $mainDark;
     padding: 0 20px;
-    z-index: 9;
+    z-index: 1;
 }
 
 .header__logo {

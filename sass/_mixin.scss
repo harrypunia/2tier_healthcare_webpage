@@ -7,10 +7,13 @@
     transform: translate(-50%, -50%);
 }
 
-@mixin fixPos($left, $top) {
+@mixin fixPos($left, $top, $translate) {
     position: fixed;
     left: $left;
     top: $top;
+    @if $translate == true {
+        transform: translate(-50%, -50%);
+    }
 }
 
 @mixin flexPos($justify, $align) {
@@ -19,18 +22,26 @@
     align-items: $align;
 }
 
+@mixin flexGrid($justify, $align) {
+    display: inline-flex;
+    align-content: $align;
+    justify-content: $justify;
+    flex-wrap: wrap;
+}
+
 @mixin size($width, $height) {
     width: $width;
     height: $height;
 }
 
 @mixin hover($holdTranslate, $cursor, $size) {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     cursor: $cursor;
     transform-origin: top left;
     transition: .2s transform $bezier;
     
     &:hover{
+        @if $cursor == pointer {border: 1px dashed $mainWhite;}
         @if $holdTranslate == true {
             transform: scale($size) translate(-50%, -50%);
         } @else {
@@ -39,6 +50,17 @@
     }
 }
 
+@mixin view ($which) {
+    @if $which == mobile {
+        @media only screen and (max-width: 600px) {@content}
+    } @else if $which == tab {
+        @media only screen and (max-width: 1000px) {@content}
+    }
+}
+
 @mixin wrapper() {
     padding: 80px;
+    @include view(mobile) {
+        padding: 80px 20px;
+    }
 }

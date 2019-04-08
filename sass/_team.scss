@@ -1,0 +1,16 @@
+@import "mixin";
+@import "variables";
+
+.team {
+    @include wrapper();
+    width: 100%;
+    
+    p {text-align: center}
+    
+    &__container {
+        @include flexGrid(center, center);
+    }
+    &__member {
+        width: 100%;
+    }
+}

@@ -8,6 +8,9 @@
         @include absPos(50%, 50%);
         @include hover(true, default, 1.005);
         height: 60%;
+        @include view(tab) {
+            @include size(80%, auto);
+        }
     }
     
     button {

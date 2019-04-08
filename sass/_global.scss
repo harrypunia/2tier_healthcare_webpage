@@ -4,7 +4,9 @@
 
 body {
     margin: 0;
-    background: $mainColor;
+    background: url('../assets/img/pattern.jpeg');
+    background-color: $mainColor;
+    background-blend-mode: darken;
 }
 
 h1, h2, h3, h4, p, li{
@@ -17,7 +19,7 @@ h1, h2, h3, h4, p, li{
     margin: 1.5em auto;
 }
 
-h1 {font-family: "cinzel"}
+h1 {font-family: "cinzel decorative"; font-weight: 300;}
 
 h1, h2, h3, h4 {
     font-weight: 600;

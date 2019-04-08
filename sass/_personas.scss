@@ -1,0 +1,35 @@
+@import "mixin";
+@import "variables";
+
+.personas {
+    @include wrapper();
+    width: 100vw;
+    
+    p {text-align: center}
+    
+    &__crousel {
+        @include flexGrid(center, center);
+        width: 100%;
+        
+        img {
+            @include size(120px, 120px);
+            @include hover(false, pointer, 1.05);
+            transform-origin: center center;
+            margin: 20px;
+            border-radius: 50%;
+        }
+        
+        .active {border: 5px solid $mainWhite}
+    }
+    
+    &__info {
+        @include hover(false, default, 1.01);
+        width: 60%;
+        margin: 80px 0 0 20%;
+        transform-origin: center center;
+        @include view(tab) { 
+            width: 100%;
+            margin: 40px 0 0 0;
+        }
+    }
+}
