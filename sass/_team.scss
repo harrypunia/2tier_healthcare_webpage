@@ -9,8 +9,18 @@
     
     &__container {
         @include flexGrid(center, center);
+        width: 100%;
+        margin-top: 80px;
     }
     &__member {
-        width: 100%;
+        width: 300px;
+        
+        img {
+            @include hover(false, pointer, 1.02);
+            transform-origin: center;
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 50%;
+        }
     }
 }

@@ -1,7 +1,7 @@
 @import "mixin";
 @import "variables";
 
-.ads {
+.posters {
     @include wrapper();
     @include size(100%, auto);
     

@@ -74,7 +74,7 @@ header {
   /* line 18, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
   .header__logo img {
     height: 40px;
-    margin: 5px 20px auto 0; }
+    margin: 5px 0 auto 0; }
   /* line 23, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_header.scss */
   .header__logo__text {
     margin: auto; }
@@ -199,20 +199,20 @@ header {
         width: 100%;
         margin: 40px 0 0 0; } }
 
-/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-.ads {
+/* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+.posters {
   padding: 80px;
   width: 100%;
   height: auto; }
   @media only screen and (max-width: 600px) {
-    /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-    .ads {
+    /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+    .posters {
       padding: 80px 20px; } }
-  /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-  .ads p {
+  /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+  .posters p {
     text-align: center; }
-  /* line 10, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-  .ads__preview {
+  /* line 10, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+  .posters__preview {
     position: fixed;
     left: 0;
     top: 0;
@@ -221,8 +221,8 @@ header {
     display: none;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 9; }
-    /* line 17, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-    .ads__preview i {
+    /* line 17, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+    .posters__preview i {
       position: absolute;
       left: 95vw;
       top: 40px;
@@ -235,19 +235,19 @@ header {
       transition: 0.2s transform cubic-bezier(0.35, 0.24, 0.25, 0.97);
       z-index: 10; }
       /* line 43, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_mixin.scss */
-      .ads__preview i:hover {
+      .posters__preview i:hover {
         border: 1px dashed #efefef;
         transform: scale(1.2) translate(-50%, -50%); }
-    /* line 25, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-    .ads__preview img {
+    /* line 25, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+    .posters__preview img {
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
       width: 80vh;
       height: 80vh; }
-  /* line 31, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-  .ads__container {
+  /* line 31, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+  .posters__container {
     width: auto;
     height: auto;
     display: inline-flex;
@@ -255,13 +255,13 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px; }
-  /* line 37, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-  .ads__item {
+  /* line 37, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+  .posters__item {
     width: 300px;
     height: 300px;
     margin: 20px auto; }
-    /* line 41, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_ads.scss */
-    .ads__item img {
+    /* line 41, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
+    .posters__item img {
       width: 90%;
       height: auto;
       box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
@@ -270,7 +270,7 @@ header {
       transition: 0.2s transform cubic-bezier(0.35, 0.24, 0.25, 0.97);
       transform-origin: center center; }
       /* line 43, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_mixin.scss */
-      .ads__item img:hover {
+      .posters__item img:hover {
         border: 1px dashed #efefef;
         transform: scale(1.02); }
 
@@ -315,10 +315,26 @@ header {
     display: inline-flex;
     align-content: center;
     justify-content: center;
-    flex-wrap: wrap; }
-  /* line 13, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_team.scss */
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 80px; }
+  /* line 15, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_team.scss */
   .team__member {
-    width: 100%; }
+    width: 300px; }
+    /* line 18, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_team.scss */
+    .team__member img {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transform-origin: top left;
+      transition: 0.2s transform cubic-bezier(0.35, 0.24, 0.25, 0.97);
+      transform-origin: center;
+      width: 50%;
+      margin-left: 25%;
+      border-radius: 50%; }
+      /* line 43, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_mixin.scss */
+      .team__member img:hover {
+        border: 1px dashed #efefef;
+        transform: scale(1.02); }
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_footer.scss */
 footer {

@@ -1,4 +1,4 @@
-/*Logo Text*/       parseContent("Logo name", "header__logo__text");
+/*Logo Text*/       parseContent("Team Panda", "header__logo__text");
 /*Header Item 1*/   parseContent("Menu", "header__item-1");
 /*Header Item 2*/   parseContent("About", "header__item-2");
 /*Header Item 3*/   parseContent("Ads", "header__item-3");
@@ -6,10 +6,10 @@
 /*Intro Button*/    parseContent("Learn More", "intro__button");
 /*About Title*/     parseContent("About project", "about__title");
 /*About desc*/      parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "about__desc");
-/*Ads Title*/       parseContent("Advertisements", "ads__title");
-/*Ads desc*/        parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "ads__desc");
+/*Ads Title*/       parseContent("Advertisements", "posters__title");
+/*Ads desc*/        parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "posters__desc");
 /*Personas Title*/  parseContent('Personas', 'personas__title');
-/*Personas Desc*/   parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "ads__desc");
+/*Personas Desc*/   parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "posters__desc");
 /*Personas Title*/  parseContent('Video Ads', 'videos__title');
 /*Personas Desc*/   parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "videos__desc");
 /*Personas Title*/  parseContent('Team', 'team__title');
@@ -18,8 +18,8 @@
 /*Team Harry Title*/parseContent('Maria', 'team__member-maria-title');
 /*Team Harry Title*/parseContent('Daniel', 'team__member-daniel-title');
 /*Team Harry Title*/parseContent('Eva', 'team__member-eva-title');
-/*Team Harry Desc*/ parseContent('Harry', 'team__member-harry-desc');
-/*Team Harry Desc*/ parseContent('Harry', 'team__member-maria-desc');
-/*Team Harry Desc*/ parseContent('Harry', 'team__member-daniel-desc');
-/*Team Harry Desc*/ parseContent('Harry', 'team__member-eva-desc');
+/*Team Harry Desc*/ parseContent('Code, Visuals', 'team__member-harry-desc');
+/*Team Harry Desc*/ parseContent('Circuit, Visuals', 'team__member-maria-desc');
+/*Team Harry Desc*/ parseContent('Research, Circuit', 'team__member-daniel-desc');
+/*Team Harry Desc*/ parseContent('Visuals, Documentation', 'team__member-eva-desc');
 /*Footer CR*/       parseContent("copyright &copy; " + new Date().getFullYear() + " Team Panda", "footer__copyright");
