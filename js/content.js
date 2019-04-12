@@ -14,7 +14,12 @@
 /*Personas Desc*/   parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "videos__desc");
 /*Personas Title*/  parseContent('Team', 'team__title');
 /*Personas Desc*/   parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "team__desc");
-/*Team Harry Title*/parseContent('Harry', 'team__member-harry-title');
+/*Ethical Title*/   parseContent('Ethical Consideration', "ethical__title");
+/*Ethical Desc*/    parseContent(ethicalDesc, "ethical__desc");
+/*Messaging Title*/ parseContent("Messaging", "messaging__title");
+/*Messaging Desc*/  parseContent(messagingDesc, "messaging__desc");
+/*Approach Title*/  parseContent("Approach", "approach__title");
+/*Approach Desc*/   parseContent(approachDesc, 'approach__desc');
 /*Team Harry Title*/parseContent('Maria', 'team__member-maria-title');
 /*Team Harry Title*/parseContent('Daniel', 'team__member-daniel-title');
 /*Team Harry Title*/parseContent('Eva', 'team__member-eva-title');
@@ -22,4 +27,26 @@
 /*Team Harry Desc*/ parseContent('Circuit, Visuals', 'team__member-maria-desc');
 /*Team Harry Desc*/ parseContent('Research, Circuit', 'team__member-daniel-desc');
 /*Team Harry Desc*/ parseContent('Visuals, Documentation', 'team__member-eva-desc');
+/*References Desc*/ parseContent('Brampton civic hospital public-private partnership project (section 3.03, 2008 annual report of the auditor general of ontario). (2010). Canadian Research Index', 'references-1');
+/*References Desc*/ parseContent('BDevereaux, P. J., Choi, P. T. L., Lacchetti, C., Weaver, B., Schunemann, H. J., Haines, T., . . . Guyatt, G. H. (2002). A systematic review and meta-analysis of studies comparing mortality rates of private for-profit and private not-for-profit hospitals. Canadian Medical Association Journal, 166(11), 1399-1406.', 'references-2');
+/*References Desc*/ parseContent("Glauser, W. (2011). Private clinics continue explosive growth. CMAJ : Canadian Medical Association Journal = Journal De L'Association Medicale Canadienne, 183(8), E438. doi:10.1503/cmaj.109-3816", 'references-3');
+/*References Desc*/ parseContent('Graff-McRae, R. (2017). Blurred lines: Private membership clinics and public healthcare. (). Alberta, Canada: University of Alberta.', 'references-4');
+/*References Desc*/ parseContent('Health systems financing: The path to universal coverage. (2010).', 'references-5');
+/*References Desc*/ parseContent('Mehra, N. (2008). Eroding public medicare: Lessons and consequences of for-profit health care across canadaCanadian Health Coalition.', 'references-6');
+/*References Desc*/ parseContent('Mehra, N. (2017). Private clinics and the threat to public medicare in canada Ontario Health Coalition.', 'references-7');
+/*References Desc*/ parseContent('Silnicki, A. (2014). Why we’re fighting against two-tiered health care.', 'references-8');
+/*References Desc*/ parseContent('Time to close the gap. (2014).', 'references-9');
+/*References Desc*/ parseContent('References', 'references__title');
 /*Footer CR*/       parseContent("copyright &copy; " + new Date().getFullYear() + " Team Panda", "footer__copyright");
+
+
+//Links
+parseLink('http://www.ontariohealthcoalition.ca/wp-content/uploads/AUDITORS-REPORT-December-8-9-2008.pdf', 'references-1');
+parseLink('http://www.cmaj.ca/cgi/content/abstract/166/11/1399', 'references-2');
+parseLink('', 'references-3');
+parseLink('https://d3n8a8pro7vhmx.cloudfront.net/parklandinstitute/pages/1549/attachments/original/1511381905/blurredlines.pdf?1511381905', 'references-4');
+parseLink('https://www.who.int/whr/2010/en/', 'references-5');
+parseLink('http://deslibris.ca/ID/214609', 'references-6');
+parseLink('http://deslibris.ca/ID/10090963', 'references-7');
+parseLink('https://canadians.org/blog/why-were-fighting-against-two-tiered-health-care', 'references-8');
+parseLink('http://www.waittimealliance.ca/wta-reports/2014-wta-report-card/', 'references-9');

@@ -26,6 +26,7 @@
         img {
             @include size(600px, 600px);   
         }
+        h4 {width: 100%;}
     }
     
     &__container{

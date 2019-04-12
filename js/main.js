@@ -32,3 +32,5 @@ const closePreview = () => {
 }
 
 const parseContent = (text, className) => document.getElementsByClassName(className)[0].innerHTML = text;
+
+const parseLink = (link, className) => document.getElementsByClassName(className)[0].setAttribute('href', link);

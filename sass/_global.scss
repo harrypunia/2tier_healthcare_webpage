@@ -31,6 +31,13 @@ p {max-width: 800px;}
 a {
     text-decoration: none;
     display: block;
+    color: $mainWhite;
+}
+
+a["quote"] {
+    color: #bababa;
+    font-style: italic;
+    max-width: 800px;
 }
 
 button {
