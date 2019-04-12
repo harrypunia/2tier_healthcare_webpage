@@ -9,6 +9,7 @@
     
     &__preview {
         @include fixPos(0, 0, false);
+        @include flexGrid(center, center);
         @include size(100vw, 100vh);
         display: none;
         background-color: rgba(0, 0, 0, 0.8);
@@ -16,15 +17,14 @@
         
         i {
             @include absPos(95vw, 40px);
+            @include hover(true, pointer, 1.2);
             font-size: 36px;
             color: $mainWhite;
-            @include hover(true, pointer, 1.2);
             z-index: 10;
         }
         
         img {
-            @include absPos(50%, 50%);
-            @include size(80vh, 80vh);   
+            @include size(600px, 600px);   
         }
     }
     
