@@ -4,15 +4,12 @@
 
 /* line 5, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 body {
-  margin: 0; }
-
-/* line 9, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
-.container {
+  margin: 0;
   background: url("../assets/img/pattern.jpg");
   background-color: #932a2a;
   background-blend-mode: darken; }
 
-/* line 15, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+/* line 12, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 h1, h2, h3, h4, p, li {
   position: relative;
   color: #efefef;
@@ -22,45 +19,45 @@ h1, h2, h3, h4, p, li {
   letter-spacing: 1.5px;
   margin: 1.5em auto; }
 
-/* line 25, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+/* line 22, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 h1 {
   font-family: "cinzel decorative";
   font-weight: 300; }
 
-/* line 27, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+/* line 24, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 h1, h2, h3, h4 {
   font-weight: 600;
   text-align: center; }
 
-/* line 32, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+/* line 29, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 p {
   max-width: 800px; }
 
-/* line 34, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+/* line 31, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 a {
   text-decoration: none;
   display: block;
   color: #efefef; }
 
-/* line 40, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+/* line 37, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 a[quote] {
   color: #bababa;
   font-style: italic;
   max-width: 800px; }
-  /* line 45, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+  /* line 42, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
   a[quote]:hover {
     text-decoration: underline; }
 
-/* line 50, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+/* line 47, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
 button {
   background: #000000;
   border: 0;
   color: #efefef;
   padding: 10px 30px; }
-  /* line 56, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+  /* line 53, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
   button:hover {
     border: 1px solid #efefef; }
-  /* line 58, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
+  /* line 55, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_global.scss */
   button:focus {
     outline: 0; }
 
