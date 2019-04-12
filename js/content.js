@@ -5,7 +5,7 @@
 /*Header Item 4*/   parseContent("Documentation", "header__item-4");
 /*Intro Button*/    parseContent("Learn More", "intro__button");
 /*About Title*/     parseContent("About project", "about__title");
-/*About desc*/      parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "about__desc");
+/*About desc*/      parseContent("This website is run by the non-profit activist campaign Canadians for Empathetic Healthcare. CEH aims to convince Canadian citizens that some government agencies are pushing Canada towards a two-tier healthcare system, which would be bad for our nation. Two-tier healthcare refers to a system with both tax funded and privately paid options for medical services. This Summer CEH is launching a social media campaign through advertisements on Instagram, Facebook, and Twitter.", "about__desc");
 /*Ads Title*/       parseContent("Advertisements", "posters__title");
 /*Ads desc*/        parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "posters__desc");
 /*Personas Title*/  parseContent('Personas', 'personas__title');
@@ -24,10 +24,10 @@
 /*Team Maria Title*/parseContent('Maria', 'team__member-maria-title');
 /*Team Daniel Title*/parseContent('Daniel', 'team__member-daniel-title');
 /*Team Eva Title*/parseContent('Eva', 'team__member-eva-title');
-/*Team Harry Desc*/ parseContent('Code, Visuals', 'team__member-harry-desc');
-/*Team Maria Desc*/ parseContent('Circuit, Visuals', 'team__member-maria-desc');
-/*Team Daniel Desc*/ parseContent('Research, Circuit', 'team__member-daniel-desc');
-/*Team Eva Desc*/ parseContent('Visuals, Documentation', 'team__member-eva-desc');
+/*Team Harry Desc*/ parseContent('Code, Personas', 'team__member-harry-desc');
+/*Team Maria Desc*/ parseContent('Static Ads, Personas', 'team__member-maria-desc');
+/*Team Daniel Desc*/ parseContent('Research, Personas', 'team__member-daniel-desc');
+/*Team Eva Desc*/ parseContent('Video Ads, Personas', 'team__member-eva-desc');
 /*References Desc*/ parseContent('Brampton civic hospital public-private partnership project (section 3.03, 2008 annual report of the auditor general of ontario). (2010). Canadian Research Index', 'references-1');
 /*References Desc*/ parseContent('BDevereaux, P. J., Choi, P. T. L., Lacchetti, C., Weaver, B., Schunemann, H. J., Haines, T., . . . Guyatt, G. H. (2002). A systematic review and meta-analysis of studies comparing mortality rates of private for-profit and private not-for-profit hospitals. Canadian Medical Association Journal, 166(11), 1399-1406.', 'references-2');
 /*References Desc*/ parseContent("Glauser, W. (2011). Private clinics continue explosive growth. CMAJ : Canadian Medical Association Journal = Journal De L'Association Medicale Canadienne, 183(8), E438. doi:10.1503/cmaj.109-3816", 'references-3');

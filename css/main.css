@@ -145,24 +145,24 @@ header {
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_about.scss */
 .about {
-  padding: 80px;
+  padding: 40px 80px;
   width: 100vw; }
   @media only screen and (max-width: 600px) {
     /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_about.scss */
     .about {
-      padding: 80px 20px; } }
+      padding: 40px 20px; } }
   /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_about.scss */
   .about p {
     text-align: center; }
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_personas.scss */
 .personas {
-  padding: 80px;
+  padding: 40px 80px;
   width: 100vw; }
   @media only screen and (max-width: 600px) {
     /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_personas.scss */
     .personas {
-      padding: 80px 20px; } }
+      padding: 40px 20px; } }
   /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_personas.scss */
   .personas p {
     text-align: center; }
@@ -211,13 +211,13 @@ header {
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
 .posters {
-  padding: 80px;
+  padding: 40px 80px;
   width: 100%;
   height: auto; }
   @media only screen and (max-width: 600px) {
     /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
     .posters {
-      padding: 80px 20px; } }
+      padding: 40px 20px; } }
   /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_posters.scss */
   .posters p {
     text-align: center; }
@@ -289,11 +289,11 @@ header {
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_videos.scss */
 .videos {
-  padding: 80px; }
+  padding: 40px 80px; }
   @media only screen and (max-width: 600px) {
     /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_videos.scss */
     .videos {
-      padding: 80px 20px; } }
+      padding: 40px 20px; } }
   /* line 7, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_videos.scss */
   .videos p {
     text-align: center; }
@@ -314,20 +314,20 @@ header {
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_documentation.scss */
 .documentation {
-  padding: 80px; }
+  padding: 40px 80px; }
   @media only screen and (max-width: 600px) {
     /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_documentation.scss */
     .documentation {
-      padding: 80px 20px; } }
+      padding: 40px 20px; } }
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_team.scss */
 .team {
-  padding: 80px;
+  padding: 40px 80px;
   width: 100%; }
   @media only screen and (max-width: 600px) {
     /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_team.scss */
     .team {
-      padding: 80px 20px; } }
+      padding: 40px 20px; } }
   /* line 8, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_team.scss */
   .team p {
     text-align: center; }
@@ -359,7 +359,7 @@ header {
 
 /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_references.scss */
 .references {
-  padding: 80px;
+  padding: 40px 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,7 +367,7 @@ header {
   @media only screen and (max-width: 600px) {
     /* line 4, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_references.scss */
     .references {
-      padding: 80px 20px; } }
+      padding: 40px 20px; } }
   /* line 9, /Users/harsimranpunia/Documents/GitHub/2tier_healthcare_webpage/sass/_references.scss */
   .references__grid {
     width: auto;
