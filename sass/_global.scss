@@ -4,7 +4,10 @@
 
 body {
     margin: 0;
-    background: url('../assets/img/pattern.jpeg');
+}
+
+.container {
+    background: url('../assets/img/pattern.jpg');
     background-color: $mainColor;
     background-blend-mode: darken;
 }
@@ -34,10 +37,14 @@ a {
     color: $mainWhite;
 }
 
-a["quote"] {
+a[quote] {
     color: #bababa;
     font-style: italic;
     max-width: 800px;
+    
+    &:hover {
+        text-decoration: underline
+    }
 }
 
 button {

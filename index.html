@@ -4,232 +4,236 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthcare System</title>
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <a href="#">
-           <div class="header__logo">
-               <img src="assets/img/logo.png">
-               <p class="header__logo__text"></p>
+   <div class="container">
+        <header>
+            <a href="#">
+               <div class="header__logo">
+                   <img src="assets/img/logo.png">
+                   <p class="header__logo__text"></p>
+                </div>
+            </a>
+            <div class="header__items">
+                <ul>
+                    <li class="header__item-1"></li>
+                    <li class="header__item-2"></li>
+                    <li class="header__item-3"></li>
+                    <li class="header__item-4"></li>
+                </ul>
             </div>
-        </a>
-        <div class="header__items">
-            <ul>
-                <li class="header__item-1"></li>
-                <li class="header__item-2"></li>
-                <li class="header__item-3"></li>
-                <li class="header__item-4"></li>
-            </ul>
-        </div>
-    </header>
-    <div>
-        <div class="intro">
-            <img src="assets/img/intro.jpg" alt="Introduction">
-            <button class="intro__button"></button>
-        </div>
-        <div id="about" class="about">
-            <h1 class="about__title"></h1>
-            <p class="about__desc"></p>
-        </div>
-        <div class="personas">
-           <h1 class="personas__title"></h1>
-           <p class="personas__desc"></p>
-            <div class="personas__crousel">
-                <img data="persona_1_info" class="personas__crousel__face active" src="assets/img/persona_1.png" alt="person">
-                <img data="persona_2_info" class="personas__crousel__face" src="assets/img/persona_2.png" alt="person">
-                <img data="persona_3_info" class="personas__crousel__face" src="assets/img/persona_3.png" alt="person">
-                <img data="persona_4_info" class="personas__crousel__face" src="assets/img/persona_1.png" alt="person">
+        </header>
+        <div>
+            <div class="intro">
+                <img src="assets/img/intro.jpg" alt="Introduction">
+                <button class="intro__button"></button>
             </div>
-            <img class="personas__info" src="assets/img/persona_1_info.png" alt="">
-        </div>
-        <div class="posters">
-            <div class="posters__preview">
-                <i class="fas fa-window-close" onclick="closePreview()"></i>
-                <img>
-                <h4 class="posters__preview__title"></h4>
-                <p class="posters__preview__desc"></p>
+            <div id="about" class="about">
+                <h1 class="about__title"></h1>
+                <p class="about__desc"></p>
             </div>
-            <h1 class="posters__title"></h1>
-            <p class="posters__desc"></p>
-            <div class="posters__container">
-                <div class="posters__item">
-                    <img 
-                    title="Private Healthcare in Canada" 
-                    desc="30% of Canada’s healthcare services are already privatized. This number is always increasing."
-                    src="assets/img/poster_1.jpg" 
-                    alt="">
+            <div class="personas">
+               <h1 class="personas__title"></h1>
+               <p class="personas__desc"></p>
+                <div class="personas__crousel">
+                    <img data="persona_1_info" class="personas__crousel__face active" src="assets/img/persona_1.png" alt="person">
+                    <img data="persona_2_info" class="personas__crousel__face" src="assets/img/persona_2.png" alt="person">
+                    <img data="persona_3_info" class="personas__crousel__face" src="assets/img/persona_3.png" alt="person">
+                    <img data="persona_4_info" class="personas__crousel__face" src="assets/img/persona_1.png" alt="person">
                 </div>
-                <div class="posters__item">
-                    <img
-                    title="International Healthcare" 
-                    desc="Canada currently has less public health care options than countries in the European Union."
-                    src="assets/img/poster_2.jpg" 
-                    alt="">
+                <img class="personas__info" src="assets/img/persona_1_info.png" alt="">
+</div>
+            <div class="posters">
+                <div class="posters__preview">
+                    <i class="fas fa-window-close" onclick="closePreview()"></i>
+                    <img>
+                    <h4 class="posters__preview__title"></h4>
+                    <p class="posters__preview__desc"></p>
                 </div>
-                <div class="posters__item">
-                    <img
-                    title="Public Health Wait Times" 
-                    desc="Removing in-demand health care professionals from the public system will lengthen wait times for the vast majority of Canadian citizens."
-                    src="assets/img/poster_3.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Quality of Care" 
-                    desc="Increased privatisation in a two-tier system will lead to the top medical practitioners only being available to patients who can afford to pay for them."
-                    src="assets/img/poster_4.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="ED Wait Times" 
-                    desc="According to research by the Wait Time Alliance of Canada, the wait-time targets for the vast majority of Emergency Department patients are being met in the public system."
-                    src="assets/img/poster_5.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Public Resources" 
-                    desc="The resources that cause long wait times, such as acute care beds and community health programs, are actually made more available by Canada’s public healthcare system."
-                    src="assets/img/poster_6.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Hospital Inefficiency" 
-                    desc="Hospital inefficiency causes $300 billion to be lost annually. Across the board, for-profit private hospitals rate the lowest in efficiency and public hospitals rate the most efficient."
-                    src="assets/img/poster_7.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="World Health Organization (WHO)" 
-                    desc="Every member state of the WHO has set a target to work toward total universal coverage."
-                    src="assets/img/poster_8.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Risk of Death" 
-                    desc="Studies involving more than 26 000 hospitals (and 38 million patients) proved conclusively that privatised hospitals have a higher risk of patient death than public hospitals."
-                    src="assets/img/poster_9.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Healthcare Debate" 
-                    desc="The Canadian government is constantly debating at both federal and provincial levels about the expansion of private for-profit hospitals."
-                    src="assets/img/poster_10.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Extra Billing" 
-                    desc="The Ontario Health Coalition found evidence of 89 clinics in 5 provinces that are in violation of the Canadian Healthcare Act, often through the extra billing of patients."
-                    src="assets/img/poster_11.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Government Pressure" 
-                    desc="Provincial governments in Canada receive significant pressure from private company owners to give them publicly-funded contracts that will increase their own profits."
-                    src="assets/img/poster_12.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="At What Cost?" 
-                    desc="A single visit to some private healthcare facilities in Canada is equivalent to what one citizen pays for an entire year of healthcare."
-                    src="assets/img/poster_13.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Private Clinics" 
-                    desc="In 2017, a study by the Canadian Health Coalition found that the majority of private clinics charge patients for tests and procedures that are covered by the Government of Canada."
-                    src="assets/img/poster_14.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Cataract Surgery" 
-                    desc="Cataract surgery clinics bill extra fees to seniors on fixed incomes, routinely leading to eye surgerys that cost $1500 - $2000 and up."
-                    src="assets/img/poster_15.jpg" 
-                    alt="">
-                </div>
-                <div class="posters__item">
-                    <img 
-                    title="Brampton Hospital" 
-                    desc="In Brampton Ontario a hospital built by a private company was built for close to double the proposed costs, and was finished with 25% fewer beds than promised."
-                    src="assets/img/poster_16.jpg" 
-                    alt="">
-                </div>
-                
-            </div>
-        </div>
-        <div class="videos">
-            <h1 class="videos__title"></h1>
-            <p class="videos__desc"></p>
-            <div class="videos__container">
-                <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="documentation">
-            <h1 class="ethical__title"></h1>
-            <p class="ethical__desc"></p>
-            <h1 class="messaging__title"></h1>
-            <p class="messaging__desc"></p>
-            <h1 class="approach__title"></h1>
-            <p class="approach__desc"></p>
-        </div>
-        <div class="team">
-           <h1 class="team__title"></h1>
-           <p class="team__desc"></p>
-            <div class="team__container">
-                <div class="team__member">
-                    <img src="assets/img/harry.jpg" alt="">
-                    <h4 class="team__member-harry-title"></h4>
-                    <p class="team__member-harry-desc"></p>
-                </div>
-                <div class="team__member">
-                    <img src="assets/img/maria.jpg" alt="">
-                    <h4 class="team__member-maria-title"></h4>
-                    <p class="team__member-maria-desc"></p>
-                </div>
-                <div class="team__member">
-                    <img src="assets/img/daniel.jpg" alt="">
-                    <h4 class="team__member-daniel-title"></h4>
-                    <p class="team__member-daniel-desc"></p>
-                </div>
-                <div class="team__member">
-                    <img src="assets/img/eva.jpg" alt="">
-                    <h4 class="team__member-eva-title"></h4>
-                    <p class="team__member-eva-desc"></p>
+                <h1 class="posters__title"></h1>
+                <p class="posters__desc"></p>
+                <div class="posters__container">
+                    <div class="posters__item">
+                        <img 
+                        title="Private Healthcare in Canada" 
+                        desc="30% of Canada’s healthcare services are already privatized. This number is always increasing."
+                        src="assets/img/poster_1.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img
+                        title="International Healthcare" 
+                        desc="Canada currently has less public health care options than countries in the European Union."
+                        src="assets/img/poster_2.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img
+                        title="Public Health Wait Times" 
+                        desc="Removing in-demand health care professionals from the public system will lengthen wait times for the vast majority of Canadian citizens."
+                        src="assets/img/poster_3.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Quality of Care" 
+                        desc="Increased privatisation in a two-tier system will lead to the top medical practitioners only being available to patients who can afford to pay for them."
+                        src="assets/img/poster_4.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="ED Wait Times" 
+                        desc="According to research by the Wait Time Alliance of Canada, the wait-time targets for the vast majority of Emergency Department patients are being met in the public system."
+                        src="assets/img/poster_5.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Public Resources" 
+                        desc="The resources that cause long wait times, such as acute care beds and community health programs, are actually made more available by Canada’s public healthcare system."
+                        src="assets/img/poster_6.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Hospital Inefficiency" 
+                        desc="Hospital inefficiency causes $300 billion to be lost annually. Across the board, for-profit private hospitals rate the lowest in efficiency and public hospitals rate the most efficient."
+                        src="assets/img/poster_7.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="World Health Organization (WHO)" 
+                        desc="Every member state of the WHO has set a target to work toward total universal coverage."
+                        src="assets/img/poster_8.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Risk of Death" 
+                        desc="Studies involving more than 26 000 hospitals (and 38 million patients) proved conclusively that privatised hospitals have a higher risk of patient death than public hospitals."
+                        src="assets/img/poster_9.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Healthcare Debate" 
+                        desc="The Canadian government is constantly debating at both federal and provincial levels about the expansion of private for-profit hospitals."
+                        src="assets/img/poster_10.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Extra Billing" 
+                        desc="The Ontario Health Coalition found evidence of 89 clinics in 5 provinces that are in violation of the Canadian Healthcare Act, often through the extra billing of patients."
+                        src="assets/img/poster_11.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Government Pressure" 
+                        desc="Provincial governments in Canada receive significant pressure from private company owners to give them publicly-funded contracts that will increase their own profits."
+                        src="assets/img/poster_12.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="At What Cost?" 
+                        desc="A single visit to some private healthcare facilities in Canada is equivalent to what one citizen pays for an entire year of healthcare."
+                        src="assets/img/poster_13.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Private Clinics" 
+                        desc="In 2017, a study by the Canadian Health Coalition found that the majority of private clinics charge patients for tests and procedures that are covered by the Government of Canada."
+                        src="assets/img/poster_14.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Cataract Surgery" 
+                        desc="Cataract surgery clinics bill extra fees to seniors on fixed incomes, routinely leading to eye surgerys that cost $1500 - $2000 and up."
+                        src="assets/img/poster_15.jpg" 
+                        alt="">
+                    </div>
+                    <div class="posters__item">
+                        <img 
+                        title="Brampton Hospital" 
+                        desc="In Brampton Ontario a hospital built by a private company was built for close to double the proposed costs, and was finished with 25% fewer beds than promised."
+                        src="assets/img/poster_16.jpg" 
+                        alt="">
+                    </div>
+
                 </div>
             </div>
+            <div class="videos">
+                <h1 class="videos__title"></h1>
+                <p class="videos__desc"></p>
+                <div class="videos__container">
+                    <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="videos__item" width="560" height="315" src="https://www.youtube.com/embed/HEpNiOM6lto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+</div>
+            <div class="documentation">
+                <h1 class="ethical__title"></h1>
+                <p class="ethical__desc"></p>
+                <h1 class="messaging__title"></h1>
+                <p class="messaging__desc"></p>
+                <h1 class="approach__title"></h1>
+                <p class="approach__desc"></p>
+            </div>
+            <div class="team">
+               <h1 class="team__title"></h1>
+               <p class="team__desc"></p>
+                <div class="team__container">
+                    <div class="team__member">
+                        <img src="assets/img/harry.jpg" alt="">
+                        <h4 class="team__member-harry-title"></h4>
+                        <p class="team__member-harry-desc"></p>
+                    </div>
+                    <div class="team__member">
+                        <img src="assets/img/maria.jpg" alt="">
+                        <h4 class="team__member-maria-title"></h4>
+                        <p class="team__member-maria-desc"></p>
+                    </div>
+                    <div class="team__member">
+                        <img src="assets/img/daniel.jpg" alt="">
+                        <h4 class="team__member-daniel-title"></h4>
+                        <p class="team__member-daniel-desc"></p>
+                    </div>
+                    <div class="team__member">
+                        <img src="assets/img/eva.jpg" alt="">
+                        <h4 class="team__member-eva-title"></h4>
+                        <p class="team__member-eva-desc"></p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="references">
+           <h1 class="references__title"></h1>
+           <div class="references__grid">
+                <a quote class="references-1"></a><br/>
+                <a quote class="references-2"></a><br/>
+                <a quote class="references-3"></a><br/>
+                <a quote class="references-4"></a><br/>
+                <a quote class="references-5"></a><br/>
+                <a quote class="references-6"></a><br/>
+                <a quote class="references-7"></a><br/>
+                <a quote class="references-8"></a><br/>
+                <a quote class="references-9"></a>
+            </div>
+        </div>
+        <footer>
+            <p class="footer__copyright"></p>
+        </footer>
     </div>
-    <div class="references">
-       <h1 class="references__title"></h1>
-        <a quote class="references-1"></a>
-        <a quote class="references-2"></a>
-        <a quote class="references-3"></a>
-        <a quote class="references-4"></a>
-        <a quote class="references-5"></a>
-        <a quote class="references-6"></a>
-        <a quote class="references-7"></a>
-        <a quote class="references-8"></a>
-        <a quote class="references-9"></a>
-    </div>
-    <footer>
-        <p class="footer__copyright"></p>
-    </footer>
     <script src="js/main.js"></script>
     <script src="js/lenghty_content.js"></script>
     <script src="js/content.js"></script>

@@ -33,4 +33,8 @@ const closePreview = () => {
 
 const parseContent = (text, className) => document.getElementsByClassName(className)[0].innerHTML = text;
 
-const parseLink = (link, className) => document.getElementsByClassName(className)[0].setAttribute('href', link);
+const parseLink = (link, className) => {
+    const item = document.getElementsByClassName(className)[0];
+    item.setAttribute('href', link);
+    item.setAttribute('rel', 'noreferer noopener');
+}

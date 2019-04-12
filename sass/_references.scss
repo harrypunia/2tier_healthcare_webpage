@@ -3,6 +3,10 @@
 
 .references {
     @include wrapper();
-    width: 100%;
-    text-align: left;
+    @include flexPos(center, center);
+    flex-direction: column;
+    
+    &__grid {
+        @include size(auto, auto);
+    }
 }
