@@ -1,5 +1,5 @@
-let ads = document.getElementsByClassName('ads__item');
-let preview = document.getElementsByClassName('ads__preview')[0];
+let ads = document.getElementsByClassName('posters__item');
+let preview = document.getElementsByClassName('posters__preview')[0];
 let personas = document.getElementsByClassName('personas__crousel')[0].getElementsByTagName('img');
 let displayPersona = document.getElementsByClassName('personas__info')[0];
 
