@@ -23,7 +23,6 @@ const openPreview = img => {
     preview.style.display = 'flex';
     preview.getElementsByTagName('img')[0].setAttribute('src', img.src);
     preview.getElementsByTagName('h4')[0].innerHTML = img.getAttribute('title');
-    preview.getElementsByTagName('p')[0].innerHTML = img.getAttribute('desc');
 }
 
 const closePreview = () => {

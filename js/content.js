@@ -7,13 +7,13 @@
 /*About Title*/     parseContent("About project", "about__title");
 /*About desc*/      parseContent("This website is run by the non-profit activist campaign Canadians for Empathetic Healthcare. CEH aims to convince Canadian citizens that some government agencies are pushing Canada towards a two-tier healthcare system, which would be bad for our nation. Two-tier healthcare refers to a system with both tax funded and privately paid options for medical services. This Summer CEH is launching a social media campaign through advertisements on Instagram, Facebook, and Twitter.", "about__desc");
 /*Ads Title*/       parseContent("Advertisements", "posters__title");
-/*Ads desc*/        parseContent("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.", "posters__desc");
+/*Ads desc*/        parseContent("Advertisements that promote the one-tier healthcare system and goes over the downsides of the two-tier", "posters__desc");
 /*Personas Title*/  parseContent('Personas', 'personas__title');
-/*Personas Desc*/   parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "posters__desc");
+/*Poster Desc*/     parseContent('Personas developed from research and interviewing people to help nourish the development of the case-study', "personas__desc");
 /*Videos Title*/    parseContent('Video Ads', 'videos__title');
-/*Videos Desc*/     parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "videos__desc");
+/*Videos Desc*/     parseContent('Video advertisements to convery the idea of case-study', "videos__desc");
 /*Team Title*/      parseContent('Team', 'team__title');
-/*Team Desc*/       parseContent('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aperiam dolorum aliquam cumque nemo quod cupiditate earum est blanditiis mollitia quam odit ut perspiciatis, consequatur magni modi in et fugiat.', "team__desc");
+/*Team Desc*/       parseContent('Team members and their roles in this case-study', "team__desc");
 /*Ethical Title*/   parseContent('Ethical Consideration', "ethical__title");
 /*Ethical Desc*/    parseContent(ethicalDesc, "ethical__desc");
 /*Messaging Title*/ parseContent("Messaging", "messaging__title");
@@ -40,7 +40,6 @@
 /*References Desc*/ parseContent('References', 'references__title');
 /*Footer CR*/       parseContent("copyright &copy; " + new Date().getFullYear() + " Team Panda", "footer__copyright");
 
-
 //Links
 parseLink('http://www.ontariohealthcoalition.ca/wp-content/uploads/AUDITORS-REPORT-December-8-9-2008.pdf', 'references-1');
 parseLink('http://www.cmaj.ca/cgi/content/abstract/166/11/1399', 'references-2');
@@ -53,5 +52,5 @@ parseLink('https://canadians.org/blog/why-were-fighting-against-two-tiered-healt
 parseLink('http://www.waittimealliance.ca/wta-reports/2014-wta-report-card/', 'references-9');
 parseLink('#about', 'header__item-1');
 parseLink('#posters', 'header__item-2');
-parseLink('#videos', 'header__item-4');
+parseLink('#videos', 'header__item-3');
 parseLink('#documentation', 'header__item-4');
