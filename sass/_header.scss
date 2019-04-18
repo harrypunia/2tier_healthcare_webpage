@@ -11,7 +11,7 @@ header {
 
 .header__logo {
     @include flexPos(center, center);
-    @include size(200px, 50px);
+    @include size(300px, 50px);
     float: left;
     cursor: pointer;
     

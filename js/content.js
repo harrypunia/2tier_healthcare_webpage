@@ -1,4 +1,4 @@
-/*Logo Text*/       parseContent("Team Panda", "header__logo__text");
+/*Logo Text*/       parseContent("1 Tier Healthcare System", "header__logo__text");
 /*Header Item 1*/   parseContent("About", "header__item-1");
 /*Header Item 2*/   parseContent("Ads", "header__item-2");
 /*Header Item 3*/   parseContent("Videos", "header__item-3");
